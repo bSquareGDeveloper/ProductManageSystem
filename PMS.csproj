@@ -1,5 +1,5 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -62,11 +65,25 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Arathy_10\About_10.aspx" />
+    <Content Include="Arathy_10\ContactUs_10.aspx" />
+    <Content Include="Arathy_10\Content\images\image.jpg" />
+    <Content Include="Arathy_10\Content\images\img1.jpg" />
+    <Content Include="Arathy_10\Content\images\img2.jpg" />
+    <Content Include="Arathy_10\Content\images\logo.gif" />
+    <Content Include="Arathy_10\Content\images\menu_a.gif" />
+    <Content Include="Arathy_10\Content\images\menu_al.gif" />
+    <Content Include="Arathy_10\Content\images\menu_ar.gif" />
+    <Content Include="Arathy_10\Content\images\search.gif" />
+    <Content Include="Arathy_10\Content\images\search_btn.gif" />
+    <Content Include="Arathy_10\Content\images\submit.gif" />
+    <Content Include="Arathy_10\Content\images\userpic.gif" />
+    <Content Include="Arathy_10\Content\images\white.jpg" />
+    <Content Include="Arathy_10\Content\js\arial.js" />
+    <Content Include="Arathy_10\Content\js\cufon-yui.js" />
+    <Content Include="Arathy_10\Content\js\cuf_run.js" />
+    <Content Include="Arathy_10\Content\style.css" />
+    <Content Include="Arathy_10\Home_10.aspx" />
     <Content Include="Bhadresh_0\Home_0.aspx" />
     <Content Include="Bhadresh_0\About_0.aspx" />
     <Content Include="Bhadresh_0\ContactUs_0.aspx" />
@@ -74,6 +91,34 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arathy_10\About_10.aspx.cs">
+      <DependentUpon>About_10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arathy_10\About_10.aspx.designer.cs">
+      <DependentUpon>About_10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Arathy_10\ContactUs_10.aspx.cs">
+      <DependentUpon>ContactUs_10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arathy_10\ContactUs_10.aspx.designer.cs">
+      <DependentUpon>ContactUs_10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Arathy_10\Home_10.aspx.cs">
+      <DependentUpon>Home_10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arathy_10\Home_10.aspx.designer.cs">
+      <DependentUpon>Home_10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Arathy_10\Mymaster.Master.cs">
+      <DependentUpon>Mymaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arathy_10\Mymaster.Master.designer.cs">
+      <DependentUpon>Mymaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="Bhadresh_0\MasterPage0.Master.cs">
       <DependentUpon>MasterPage0.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -109,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bhadresh_0\MasterPage0.Master" />
+    <Content Include="Arathy_10\Mymaster.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -151,7 +197,7 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

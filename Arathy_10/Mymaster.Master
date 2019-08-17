@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Mymaster.master.cs" Inherits="PMS.Arathy_10.Mymaster" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    <title>CleanBlue</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="Content/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="Content/js/cufon-yui.js"></script>
+<script type="text/javascript" src="Content/js/arial.js"></script>
+<script type="text/javascript" src="Content/js/cuf_run.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+   
+</head>
+
+
+<body>
+
+    <div class="header">
+    <div class="header_resize">
+      <div class="menu_nav">
+        <ul>
+          <li class="active"><a href="Home_10.aspx"><span><span>Home</span></span></a></li>
+          
+          <li><a href="About_10.aspx"><span><span>About Us</span></span></a></li>
+          
+          <li><a href="ContactUs_10.aspx"><span><span>Contact Us</span></span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+      <div class="logo">
+        <h1><a href="index.html">CleanBlue<br />
+          <small>put your slogan here</small></a></h1>
+      </div>
+      <div class="clr"></div>
+      <img src="Content/images/image.jpg" width="930" height="160" alt="" />
+      <div class="clr"></div>
+    </div>
+  </div>
+
+    
+
+    <form id="form1" runat="server">
+
+               
+
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">&copy; Copyright MyWebSite. Designed by Blue <a href="http://www.bluewebtemplates.com/">Website Templates</a></p>
+      <ul class="fmenu">
+        <li class="active"><a href="Home_10.aspx">Home</a></li>
+        
+       
+        <li><a href="About_10.aspx">About Us</a></li>
+        <li><a href="ContactUs_10.aspx">Contacts</a></li>
+      </ul>
+      <div class="clr"></div>
+    </div>
+  </div>
+        
+
+    </form>
+
+
+    
+
+
+ 
+
+</body>
+</html>
