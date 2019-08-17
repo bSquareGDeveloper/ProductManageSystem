@@ -71,6 +71,50 @@
     <Content Include="Bhadresh_0\About_0.aspx" />
     <Content Include="Bhadresh_0\ContactUs_0.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Harshdeep_5\AboutUs_5.aspx" />
+    <Content Include="Harshdeep_5\ContactUs_5.aspx" />
+    <Content Include="Harshdeep_5\Content\css\bootstrap.min.css" />
+    <Content Include="Harshdeep_5\Content\css\materialdesignicons.min.css" />
+    <Content Include="Harshdeep_5\Content\css\pe-icon-7-stroke.css" />
+    <Content Include="Harshdeep_5\Content\css\style.css" />
+    <Content Include="Harshdeep_5\Content\fonts\materialdesignicons-webfontb43a.svg" />
+    <Content Include="Harshdeep_5\Content\fonts\Pe-icon-7-strokebb1d.svg" />
+    <Content Include="Harshdeep_5\Content\images\bg.jpg" />
+    <Content Include="Harshdeep_5\Content\images\blog\blog-1.jpg" />
+    <Content Include="Harshdeep_5\Content\images\blog\blog-2.jpg" />
+    <Content Include="Harshdeep_5\Content\images\blog\blog-3.jpg" />
+    <Content Include="Harshdeep_5\Content\images\blog\blog-4.jpg" />
+    <Content Include="Harshdeep_5\Content\images\blog\blog-5.jpg" />
+    <Content Include="Harshdeep_5\Content\images\clients\clients-1.png" />
+    <Content Include="Harshdeep_5\Content\images\clients\clients-2.png" />
+    <Content Include="Harshdeep_5\Content\images\clients\clients-3.png" />
+    <Content Include="Harshdeep_5\Content\images\clients\clients-4.png" />
+    <Content Include="Harshdeep_5\Content\images\clients\clients-5.png" />
+    <Content Include="Harshdeep_5\Content\images\clients\clients-6.png" />
+    <Content Include="Harshdeep_5\Content\images\favicon.ico" />
+    <Content Include="Harshdeep_5\Content\images\logo.png" />
+    <Content Include="Harshdeep_5\Content\images\pattern.png" />
+    <Content Include="Harshdeep_5\Content\images\team\team-1.jpg" />
+    <Content Include="Harshdeep_5\Content\images\team\team-2.jpg" />
+    <Content Include="Harshdeep_5\Content\images\team\team-3.jpg" />
+    <Content Include="Harshdeep_5\Content\images\user-1.png" />
+    <Content Include="Harshdeep_5\Content\images\works\img1.jpg" />
+    <Content Include="Harshdeep_5\Content\images\works\img10.jpg" />
+    <Content Include="Harshdeep_5\Content\images\works\img12.jpg" />
+    <Content Include="Harshdeep_5\Content\images\works\img2.jpg" />
+    <Content Include="Harshdeep_5\Content\images\works\img3.jpg" />
+    <Content Include="Harshdeep_5\Content\images\works\img4.jpg" />
+    <Content Include="Harshdeep_5\Content\images\works\img5.jpg" />
+    <Content Include="Harshdeep_5\Content\images\works\img7.jpg" />
+    <Content Include="Harshdeep_5\Content\images\works\img8.jpg" />
+    <Content Include="Harshdeep_5\Content\images\works\img9.jpg" />
+    <Content Include="Harshdeep_5\Content\images\works\work-detail.jpg" />
+    <Content Include="Harshdeep_5\Content\js\app.js" />
+    <Content Include="Harshdeep_5\Content\js\bootstrap.min.js" />
+    <Content Include="Harshdeep_5\Content\js\isotope.pkgd.min.js" />
+    <Content Include="Harshdeep_5\Content\js\jquery-2.1.4.min.js" />
+    <Content Include="Harshdeep_5\Content\js\portfolio-filter.js" />
+    <Content Include="Harshdeep_5\Home_5.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -105,10 +149,48 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Harshdeep_5\AboutUs_5.aspx.cs">
+      <DependentUpon>AboutUs_5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Harshdeep_5\AboutUs_5.aspx.designer.cs">
+      <DependentUpon>AboutUs_5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Harshdeep_5\ContactUs_5.aspx.cs">
+      <DependentUpon>ContactUs_5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Harshdeep_5\ContactUs_5.aspx.designer.cs">
+      <DependentUpon>ContactUs_5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Harshdeep_5\Home_5.aspx.cs">
+      <DependentUpon>Home_5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Harshdeep_5\Home_5.aspx.designer.cs">
+      <DependentUpon>Home_5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Harshdeep_5\MasterPage_5.Master.cs">
+      <DependentUpon>MasterPage_5.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Harshdeep_5\MasterPage_5.Master.designer.cs">
+      <DependentUpon>MasterPage_5.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bhadresh_0\MasterPage0.Master" />
+    <Content Include="Harshdeep_5\MasterPage_5.Master" />
+    <Content Include="Harshdeep_5\Content\fonts\materialdesignicons-webfontb43a.eot" />
+    <Content Include="Harshdeep_5\Content\fonts\materialdesignicons-webfontb43a.ttf" />
+    <Content Include="Harshdeep_5\Content\fonts\materialdesignicons-webfontb43a.woff" />
+    <Content Include="Harshdeep_5\Content\fonts\materialdesignicons-webfontb43a.woff2" />
+    <Content Include="Harshdeep_5\Content\fonts\materialdesignicons-webfontd41d.eot" />
+    <Content Include="Harshdeep_5\Content\fonts\Pe-icon-7-strokebb1d.eot" />
+    <Content Include="Harshdeep_5\Content\fonts\Pe-icon-7-strokebb1d.ttf" />
+    <Content Include="Harshdeep_5\Content\fonts\Pe-icon-7-strokebb1d.woff" />
+    <Content Include="Harshdeep_5\Content\fonts\Pe-icon-7-stroked41d.eot" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
