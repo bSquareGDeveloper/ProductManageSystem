@@ -71,6 +71,82 @@
     <Content Include="Bhadresh_0\About_0.aspx" />
     <Content Include="Bhadresh_0\ContactUs_0.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Sumit_04\about_04.aspx" />
+    <Content Include="Sumit_04\contact_04.aspx" />
+    <Content Include="Sumit_04\content\css\fonts\fontawesome-webfont3e6e-2.html" />
+    <Content Include="Sumit_04\content\css\fonts\fontawesome-webfont3e6e.html" />
+    <Content Include="Sumit_04\content\css\fonts\fontawesome-webfont3e6e.svg" />
+    <Content Include="Sumit_04\content\css\fonts\glyphicons-halflings-regular-2.html" />
+    <Content Include="Sumit_04\content\css\fonts\glyphicons-halflings-regular.html" />
+    <Content Include="Sumit_04\content\css\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Sumit_04\content\css\fonts\icomoonb19c.html" />
+    <Content Include="Sumit_04\content\css\fonts\icomoonb19c.svg" />
+    <Content Include="Sumit_04\content\css\fonts\Notera_PersonalUseOnly.html" />
+    <Content Include="Sumit_04\content\css\fonts\Notera_PersonalUseOnly.svg" />
+    <Content Include="Sumit_04\content\css\libs\animate.css" />
+    <Content Include="Sumit_04\content\css\libs\bootstrap.min.css" />
+    <Content Include="Sumit_04\content\css\libs\font-awesome.min.css" />
+    <Content Include="Sumit_04\content\css\libs\icomoon.css" />
+    <Content Include="Sumit_04\content\css\libs\magnific-popup.css" />
+    <Content Include="Sumit_04\content\css\libs\owl.carousel.min.css" />
+    <Content Include="Sumit_04\content\css\libs\owl.video.play.html" />
+    <Content Include="Sumit_04\content\css\styles.css" />
+    <Content Include="Sumit_04\content\images\avatar.jpg" />
+    <Content Include="Sumit_04\content\images\avatar\1.jpg" />
+    <Content Include="Sumit_04\content\images\avatar\2.jpg" />
+    <Content Include="Sumit_04\content\images\avatar\3.jpg" />
+    <Content Include="Sumit_04\content\images\footer\background.jpg" />
+    <Content Include="Sumit_04\content\images\logo-4.png" />
+    <Content Include="Sumit_04\content\images\logo-background.jpg" />
+    <Content Include="Sumit_04\content\images\logo.png" />
+    <Content Include="Sumit_04\content\images\posts\10.jpg" />
+    <Content Include="Sumit_04\content\images\posts\11.jpg" />
+    <Content Include="Sumit_04\content\images\posts\12.jpg" />
+    <Content Include="Sumit_04\content\images\posts\13.jpg" />
+    <Content Include="Sumit_04\content\images\posts\14.jpg" />
+    <Content Include="Sumit_04\content\images\posts\15.jpg" />
+    <Content Include="Sumit_04\content\images\posts\16.jpg" />
+    <Content Include="Sumit_04\content\images\posts\17.jpg" />
+    <Content Include="Sumit_04\content\images\posts\18.jpg" />
+    <Content Include="Sumit_04\content\images\posts\19.jpg" />
+    <Content Include="Sumit_04\content\images\posts\20.jpg" />
+    <Content Include="Sumit_04\content\images\posts\22.jpg" />
+    <Content Include="Sumit_04\content\images\posts\23.jpg" />
+    <Content Include="Sumit_04\content\images\posts\26.jpg" />
+    <Content Include="Sumit_04\content\images\posts\28.jpg" />
+    <Content Include="Sumit_04\content\images\posts\3.jpg" />
+    <Content Include="Sumit_04\content\images\posts\30.jpg" />
+    <Content Include="Sumit_04\content\images\posts\31.jpg" />
+    <Content Include="Sumit_04\content\images\posts\6.jpg" />
+    <Content Include="Sumit_04\content\images\posts\7.jpg" />
+    <Content Include="Sumit_04\content\images\posts\8.jpg" />
+    <Content Include="Sumit_04\content\images\posts\9.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\banner\advertise.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\category\1.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\category\2.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\category\3.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\featured-posts\1.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\instagram\1.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\instagram\2.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\instagram\3.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\instagram\4.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\instagram\5.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\instagram\6.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\instagram\7.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\instagram\8.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\instagram\9.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\posts\1.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\posts\2.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\posts\3.jpg" />
+    <Content Include="Sumit_04\content\images\widgets\posts\4.jpg" />
+    <Content Include="Sumit_04\content\js\libs\jquery-1.12.4.min.js" />
+    <Content Include="Sumit_04\content\js\libs\jquery-scrolltofixed-min.js" />
+    <Content Include="Sumit_04\content\js\libs\jquery.justifiedGallery.min.js" />
+    <Content Include="Sumit_04\content\js\libs\jquery.magnific-popup.js" />
+    <Content Include="Sumit_04\content\js\libs\masonry.pkgd.js" />
+    <Content Include="Sumit_04\content\js\libs\owl.carousel.js" />
+    <Content Include="Sumit_04\content\js\scripts.js" />
+    <Content Include="Sumit_04\home_04.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -106,10 +182,48 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sumit_04\about_04.aspx.cs">
+      <DependentUpon>about_04.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sumit_04\about_04.aspx.designer.cs">
+      <DependentUpon>about_04.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sumit_04\contact_04.aspx.cs">
+      <DependentUpon>contact_04.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sumit_04\contact_04.aspx.designer.cs">
+      <DependentUpon>contact_04.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sumit_04\home_04.aspx.cs">
+      <DependentUpon>home_04.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sumit_04\home_04.aspx.designer.cs">
+      <DependentUpon>home_04.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sumit_04\main_04.Master.cs">
+      <DependentUpon>main_04.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Sumit_04\main_04.Master.designer.cs">
+      <DependentUpon>main_04.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bhadresh_0\MasterPage0.Master" />
     <None Include="packages.config" />
+    <Content Include="Sumit_04\main_04.Master" />
+    <Content Include="Sumit_04\content\css\fonts\fontawesome-webfont3e6e.eot" />
+    <Content Include="Sumit_04\content\css\fonts\fontawesome-webfont3e6e.woff" />
+    <Content Include="Sumit_04\content\css\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="Sumit_04\content\css\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Sumit_04\content\css\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Sumit_04\content\css\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="Sumit_04\content\css\fonts\icomoonb19c.eot" />
+    <Content Include="Sumit_04\content\css\fonts\icomoonb19c.woff" />
+    <Content Include="Sumit_04\content\css\fonts\Notera_PersonalUseOnly.eot" />
+    <Content Include="Sumit_04\content\css\fonts\Notera_PersonalUseOnly.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
