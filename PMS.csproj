@@ -1,5 +1,5 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -62,14 +65,78 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Bhadresh_0\Home_0.aspx" />
     <Content Include="Bhadresh_0\About_0.aspx" />
     <Content Include="Bhadresh_0\ContactUs_0.aspx" />
+    <Content Include="Gaurav_03\About_.aspx" />
+    <Content Include="Gaurav_03\ContactUs_.aspx" />
+    <Content Include="Gaurav_03\Content\css\fonts\fontawesome-webfont93e3-2.html" />
+    <Content Include="Gaurav_03\Content\css\fonts\fontawesome-webfont93e3.html" />
+    <Content Include="Gaurav_03\Content\css\fonts\fontawesome-webfont93e3.svg" />
+    <Content Include="Gaurav_03\Content\css\libs\font-awesome.min.css" />
+    <Content Include="Gaurav_03\Content\css\libs\grabbing.html" />
+    <Content Include="Gaurav_03\Content\css\libs\owl.carousel.css" />
+    <Content Include="Gaurav_03\Content\css\style.css" />
+    <Content Include="Gaurav_03\Content\css\widgets.css" />
+    <Content Include="Gaurav_03\Content\images\about.jpg" />
+    <Content Include="Gaurav_03\Content\images\avatar-2.jpg" />
+    <Content Include="Gaurav_03\Content\images\avatar.jpg" />
+    <Content Include="Gaurav_03\Content\images\contact.jpg" />
+    <Content Include="Gaurav_03\Content\images\featured-posts\1.jpg" />
+    <Content Include="Gaurav_03\Content\images\featured-posts\2.jpg" />
+    <Content Include="Gaurav_03\Content\images\featured-posts\3.jpg" />
+    <Content Include="Gaurav_03\Content\images\featured-posts\4.jpg" />
+    <Content Include="Gaurav_03\Content\images\featured-posts\5.jpg" />
+    <Content Include="Gaurav_03\Content\images\instagram\1.jpg" />
+    <Content Include="Gaurav_03\Content\images\instagram\10.jpg" />
+    <Content Include="Gaurav_03\Content\images\instagram\11.jpg" />
+    <Content Include="Gaurav_03\Content\images\instagram\2.jpg" />
+    <Content Include="Gaurav_03\Content\images\instagram\3.jpg" />
+    <Content Include="Gaurav_03\Content\images\instagram\4.jpg" />
+    <Content Include="Gaurav_03\Content\images\instagram\5.jpg" />
+    <Content Include="Gaurav_03\Content\images\instagram\6.jpg" />
+    <Content Include="Gaurav_03\Content\images\instagram\7.jpg" />
+    <Content Include="Gaurav_03\Content\images\instagram\8.jpg" />
+    <Content Include="Gaurav_03\Content\images\instagram\9.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\1.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\10.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\11.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\12.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\13.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\2.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\3.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\4.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\5.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\6.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\7.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\8.jpg" />
+    <Content Include="Gaurav_03\Content\images\posts\9.jpg" />
+    <Content Include="Gaurav_03\Content\images\sign.png" />
+    <Content Include="Gaurav_03\Content\images\single-post.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\about-me.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\advertise.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\instagram\1.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\instagram\2.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\instagram\3.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\instagram\4.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\instagram\5.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\instagram\6.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\instagram\7.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\instagram\8.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\instagram\9.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\posts\1.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\posts\2.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\posts\3.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\posts\4.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\posts\5.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\posts\6.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\posts\7.jpg" />
+    <Content Include="Gaurav_03\Content\images\widgets\posts\8.jpg" />
+    <Content Include="Gaurav_03\Content\js\libs\jquery-1.12.4.min.js" />
+    <Content Include="Gaurav_03\Content\js\libs\masonry.min.js" />
+    <Content Include="Gaurav_03\Content\js\libs\owl.carousel.min.js" />
+    <Content Include="Gaurav_03\Content\js\scripts.js" />
+    <Content Include="Gaurav_03\Home_03.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -102,6 +169,34 @@
     <Compile Include="Bhadresh_0\ContactUs_0.aspx.designer.cs">
       <DependentUpon>ContactUs_0.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Gaurav_03\About_.aspx.cs">
+      <DependentUpon>About_.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gaurav_03\About_.aspx.designer.cs">
+      <DependentUpon>About_.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gaurav_03\ContactUs_.aspx.cs">
+      <DependentUpon>ContactUs_.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gaurav_03\ContactUs_.aspx.designer.cs">
+      <DependentUpon>ContactUs_.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gaurav_03\Home_03.aspx.cs">
+      <DependentUpon>Home_03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gaurav_03\Home_03.aspx.designer.cs">
+      <DependentUpon>Home_03.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gaurav_03\Main_03.Master.cs">
+      <DependentUpon>Main_03.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gaurav_03\Main_03.Master.designer.cs">
+      <DependentUpon>Main_03.Master</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -109,6 +204,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bhadresh_0\MasterPage0.Master" />
+    <Content Include="Gaurav_03\Main_03.Master" />
+    <Content Include="Gaurav_03\Content\css\fonts\fontawesome-webfont93e3.eot" />
+    <Content Include="Gaurav_03\Content\css\fonts\fontawesome-webfont93e3.woff" />
+    <Content Include="Gaurav_03\Content\css\fonts\fontawesome-webfontd41d.eot" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -151,7 +250,7 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

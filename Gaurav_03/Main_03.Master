@@ -1,0 +1,587 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main_03.master.cs" Inherits="PMS.Gaurav_03.Main_03" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   
+
+    	    <meta charset="utf-8">
+    <title>Artistas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,700|PT+Sans:400,700|Josefin+Sans' type='text/css' media='all' />
+    <link rel="stylesheet" type="text/css" href="Content/css/libs/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Content/css/libs/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="Content/css/style.css">
+    <link rel="stylesheet" type="text/css" href="Content/css/widgets.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+<!-- End Preloader -->
+
+<!-- Sidebar Left -->
+<div class="sidebar-left">
+    <div class="sidebar-content">
+        <div class="kd-col">
+            <!--Menu Responsive -->
+            <!-- Navigation -->
+            <nav class="navigation navigation-small">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="index-2.html">Home</a>
+                    </li>
+                    <li class="menu-item menu-item-has-children">
+                        <a href="#">Features<span class="menu-expand"></span></a>
+                        <ul class="sub-menu">
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">Standard Layout<span class="menu-expand"></span></a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="standard-no-sidebar.html">No Sidebar</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="standard-left-sidebar.html">Left Sidebar</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="standard-right-sidebar.html">Right Sidebar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">Grid Layout<span class="menu-expand"></span></a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="grid-no-sidebar.html">No Sidebar</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="grid-left-sidebar.html">Left Sidebar</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="grid-right-sidebar.html">Right Sidebar</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="grid-1st-large.html">1st Large</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">List Layout<span class="menu-expand"></span></a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="list-no-sidebar.html">No Sidebar</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="list-left-sidebar.html">Left Sidebar</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="list-right-sidebar.html">Right Sidebar</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="list-1st-large.html">1st Large</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Travel</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Lifestyle</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Single</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="About_.aspx">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="ContactUs_.aspx">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- End Navigation -->
+            <!--End Menu Responsive -->
+
+            <!-- Widget About -->
+            <div class="widget ntp-about">
+                <h2 class="widget-title">
+                    About me
+                </h2>
+                <div class="widget-content">
+                    <img src="Content/images/widgets/about-me.jpg" alt="">
+
+                    <h2 class="title">
+                        <a href="#">William Shatner</a>
+                    </h2>
+                    <p class="ntp-description">
+                        Taciti nunc magna tincidunt adipiscing pretium pharetra platea. Vivamus quisque duis ullamcorper Adipiscing aliquet lectus.Amet augue rutrum gravida tellus nostra integer netus
+                    </p>
+                </div>
+            </div>
+            <!-- End Widget About -->
+
+            <div class="widget ntp-follow">
+                <div class="widget-follow-content ntp-social-square">
+                    <a href="#" title="Behance">
+                        <i class="fa fa-behance"></i>
+                    </a>
+                    <a href="#" title="Dribbble">
+                        <i class="fa fa-dribbble"></i>
+                    </a>
+                    <a href="#" title="Facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#" title="Google Plus">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                    <a href="#" title="Linkedin">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="widget ntp-contact">
+                <h2 class="widget-title ">Contact Me</h2>
+                <div class="widget-contact-content">
+                    <div class="ntp-description">
+                        <p>
+                            Amet augue rutrum gravida tellus nostra integer netus, feugiat sociis. Euismod nunc lacus ante commodo tortor montes eu duis orci tempor iaculis sociosqu.
+                        </p>
+                    </div>
+                    <div class="item-icon-left ntp-description">
+                        <i class="fa fa-map-marker"></i>
+                        <span>
+                            75 Washington DC                     </span>
+                    </div>
+                    <div class="item-icon-left ntp-description">
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                           <a href="mailto:kendytheme.ksb@gmail.com">kendytheme.ksb@gmail.com</a>
+                        </span>
+                    </div>
+                    <div class="item-icon-left ntp-description">
+                        <i class="fa fa-phone"></i>
+                        <span>+123 456 789</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Contact -->
+
+
+            <!-- Popular Posts -->
+            <div class="widget ntp-popular-post">
+                <h2 class="widget-title">Popular Posts</h2>
+                <div class="widget-list">
+                    <div class="item clearfix">
+                        <a href="#">
+                            <div class="item-image" style="background-image: url('images/widgets/posts/5.jpg')">
+                                <img src="Content/images/widgets/posts/5.jpg" alt="A high risk investment may bring you big profit">
+                            </div>
+                        </a>
+                        <div class="widget-item-content">
+                            <a href="#" class="item-meta"><span>October 9, 2016</span></a>
+                            <h3 class="item-title">
+                                <a href="#">A high risk investment may bring you big profit</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="item clearfix">
+                        <a href="#">
+                            <div class="item-image" style="background-image: url('images/widgets/posts/6.jpg')">
+                                <img src="Content/images/widgets/posts/6.jpg" alt="Introducing Your Newest Model home">
+                            </div>
+                        </a>
+                        <div class="widget-item-content">
+                            <a href="#" class="item-meta"><span>October 9, 2016</span></a>
+                            <h3 class="item-title">
+                                <a href="#">Introducing Your Newest Model home</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="item clearfix">
+                        <a href="#">
+                            <div class="item-image" style="background-image: url('images/widgets/posts/7.jpg')">
+                                <img src="Content/images/widgets/posts/7.jpg" alt="Enjoy the fruits of your labour">
+                            </div>
+                        </a>
+                        <div class="widget-item-content">
+                            <a href="#" class="item-meta"><span>October 9, 2016</span></a>
+                            <h3 class="item-title">
+                                <a href="#">Enjoy the fruits of your labour</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="item clearfix">
+                        <a href="#">
+                            <div class="item-image" style="background-image: url('images/widgets/posts/8.jpg')">
+                                <img src="Content/images/widgets/posts/8.jpg" alt="The sooner you try the sooner you can succeed">
+                            </div>
+                        </a>
+                        <div class="widget-item-content">
+                            <a href="#" class="item-meta"><span>October 9, 2016</span></a>
+                            <h3 class="item-title">
+                                <a href="#">The sooner you try the sooner you can succeed</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Popular Posts -->
+
+            <!-- Instagram -->
+            <div class="widget ntp-flickr">
+                <h2 class="widget-title">Instargram</h2>
+                <div class="ntp-instagram-content widget-grid">
+                    <div class="item">
+                        <a href="#">
+                            <img src="Content/images/widgets/instagram/1.jpg" alt="Flickr Feed">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="Content/images/widgets/instagram/2.jpg" alt="Flickr Feed">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="Content/images/widgets/instagram/3.jpg" alt="Flickr Feed">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="Content/images/widgets/instagram/4.jpg" alt="Flickr Feed">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="Content/images/widgets/instagram/5.jpg" alt="Flickr Feed">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="Content/images/widgets/instagram/6.jpg" alt="Flickr Feed">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="Content/images/widgets/instagram/7.jpg" alt="Flickr Feed">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="Content/images/widgets/instagram/8.jpg" alt="Flickr Feed">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="Content/images/widgets/instagram/9.jpg" alt="Flickr Feed">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Instagram -->
+
+
+        </div>
+    </div>
+</div>
+<div class="overlay-body"></div>
+<!-- Sidebar Left -->
+
+<div class="main-wrap fixed-nav">
+
+    <!-- Header -->
+    <header id="header">
+
+        <!-- Fixed Top -->
+        <div class="header navbar-fixed-top">
+            <div class="kd-container">
+                <!--Menu Mobile -->
+                <div class="menu-mobile">
+                    <span class="item item-1"></span>
+                    <span class="item item-2"></span>
+                    <span class="item item-3"></span>
+                </div>
+
+                <!-- Header Left Box -->
+                <div class="header-left">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <!-- End Header Left Box -->
+
+                <!-- Navigation -->
+                <nav class="navigation">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a href="Home_03.aspx">Home</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#">Features<span class="menu-expand"></span></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-has-children">
+                                    <a href="#">Standard Layout<span class="menu-expand"></span></a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item">
+                                            <a href="standard-no-sidebar.html">No Sidebar</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="standard-left-sidebar.html">Left Sidebar</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="standard-right-sidebar.html">Right Sidebar</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-has-children">
+                                    <a href="#">Grid Layout<span class="menu-expand"></span></a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item">
+                                            <a href="grid-no-sidebar.html">No Sidebar</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="grid-left-sidebar.html">Left Sidebar</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="grid-right-sidebar.html">Right Sidebar</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="grid-1st-large.html">1st Large</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-has-children">
+                                    <a href="#">List Layout<span class="menu-expand"></span></a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item">
+                                            <a href="list-no-sidebar.html">No Sidebar</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="list-left-sidebar.html">Left Sidebar</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="list-right-sidebar.html">Right Sidebar</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="list-1st-large.html">1st Large</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Travel</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Lifestyle</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Single</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="About_.aspx">About</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="ContactUs_.aspx">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Navigation -->
+
+                <!-- Header Right Box -->
+                <div class="header-right">
+                    <div class="top-social-icons">
+                        <div class="list-socials">
+                            <a href="#" title="Behance">
+                                <i class="fa fa-behance"></i>
+                            </a>
+                            <a href="#" title="Dribbble">
+                                <i class="fa fa-dribbble"></i>
+                            </a>
+                            <a href="#" title="Facebook">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#" title="Flickr">
+                                <i class="fa fa-flickr"></i>
+                            </a>
+                            <a href="#" title="Google Plus">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                            <a href="#" title="Instagram">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="#" title="Search" class="kd-btn-search">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-search">
+                        <form class="search-form top-search" action="#">
+                            <input type="search" class="search-field" placeholder="Search ..." value="" title="Search">
+                        </form>
+                    </div>
+                </div>
+                <!-- End Header Right Box -->
+            </div>
+        </div>
+        <!-- End Fixed Top -->
+
+        <!-- Logo -->
+        <div class="wrap-logo">
+            <div class="kd-container">
+                <h1 class="logo"><a href="#">Artistas</a></h1>
+                <h5 class="slogan">
+                    Life isn’t long enough for <span>love and art</span>
+                </h5>
+            </div>
+        </div>
+        <!-- End Logo -->
+    </header>
+    <!-- End Header -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+      <!--Footer -->
+    <footer class="footer">
+        <div class="footer-instagram">
+            <div class="instagram-text">
+                <div class="kd-container">
+                    <div class="kd-row">
+                        Follow us<a href="#">@kendythemes</a>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="instagram-feeds clearfix">
+                <li class="instagram-item">
+                    <a href="#" style="background-image: url(images/instagram/1.jpg)">
+                        <img src="Content/images/instagram/1.jpg" alt="Instagram" />
+                    </a>
+                </li>
+                <li class="instagram-item">
+                    <a href="#" style="background-image: url(images/instagram/2.jpg)">
+                        <img src="Content/images/instagram/2.jpg" alt="Instagram" />
+                    </a>
+                </li>
+                <li class="instagram-item">
+                    <a href="#" style="background-image: url(images/instagram/3.jpg)">
+                        <img src="Content/images/instagram/3.jpg" alt="Instagram" />
+                    </a>
+                </li>
+                <li class="instagram-item">
+                    <a href="#" style="background-image: url(images/instagram/4.jpg)">
+                        <img src="Content/images/instagram/4.jpg" alt="Instagram" />
+                    </a>
+                </li>
+                <li class="instagram-item">
+                    <a href="#" style="background-image: url(images/instagram/5.jpg)">
+                        <img src="Content/images/instagram/5.jpg" alt="Instagram" />
+                    </a>
+                </li>
+                <li class="instagram-item">
+                    <a href="#" style="background-image: url(images/instagram/6.jpg)">
+                        <img src="Content/images/instagram/6.jpg" alt="Instagram" />
+                    </a>
+                </li>
+                <li class="instagram-item">
+                    <a href="#" style="background-image: url(images/instagram/7.jpg)">
+                        <img src="Content/images/instagram/7.jpg" alt="Instagram" />
+                    </a>
+                </li>
+                <li class="instagram-item">
+                    <a href="#" style="background-image: url(images/instagram/8.jpg)">
+                        <img src="Content/images/instagram/8.jpg" alt="Instagram" />
+                    </a>
+                </li>
+                <li class="instagram-item">
+                    <a href="#" style="background-image: url(images/instagram/9.jpg)">
+                        <img src="Content/images/instagram/9.jpg" alt="Instagram" />
+                    </a>
+                </li>
+                <li class="instagram-item">
+                    <a href="#" style="background-image: url(images/instagram/10.jpg)">
+                        <img src="Content/images/instagram/10.jpg" alt="Instagram" />
+                    </a>
+                </li>
+                <li class="instagram-item">
+                    <a href="#" style="background-image: url(images/instagram/11.jpg)">
+                        <img src="Content/images/instagram/11.jpg" alt="Instagram" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-info">
+            <div class="kd-container">
+                <div class="kd-row">
+                    <div class="wrap-logo">
+                        <h1 class="logo"><a href="#">Artistas</a></h1>
+                        <h5 class="slogan">
+                            Life isn’t long enough for <span>love and art</span>
+                        </h5>
+
+                    </div>
+                    <div class="list-socials">
+                        <a href="#" title="Behance">
+                            <i class="fa fa-behance"></i>
+                        </a>
+                        <a href="#" title="Dribbble">
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                        <a href="#" title="Facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#" title="Flickr">
+                            <i class="fa fa-flickr"></i>
+                        </a>
+                        <a href="#" title="Google Plus">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a href="#" title="Instagram">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="kd-container">
+                <div class="kd-row clearfix">
+                    <div class="kd-col">
+                        <div class="copyright-text">
+                            All right reserved, designed & developed by <a href="http://kendytheme.net/">KendyTheme</a>
+                        </div>
+                        <div class="back-to-top">
+                            Back to top <i class="fa fa-angle-double-up"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-back-to-top"></div>
+
+    </footer>
+    <!--End Footer -->
+</div>
+
+    </form>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+</body>
+</html>
