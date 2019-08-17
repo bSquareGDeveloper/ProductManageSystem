@@ -32,7 +32,7 @@
 		<!-- Logo -->
 		<div class="logo" style="background-image: url(images/logo-background.jpg)">
 			<a href="index-2.html">
-				<img src="images/logo-4.png" alt="Simple Life">
+				<img src="content/images/logo-4.png" alt="Simple Life">
 			</a>
 		</div>
 		<!-- End Logo -->

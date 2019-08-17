@@ -24,7 +24,7 @@
 
 							<!-- Thumbnail -->
 							<div class="post-media">
-								<img src="images/posts/26.jpg" alt="Little About Me">
+								<img src="content/images/posts/26.jpg" alt="Little About Me">
 							</div>
 							<!-- End Thumbnail -->
 
@@ -52,7 +52,7 @@
 							<h2 class="widget-title">About Me</h2>
 							<div class="widget-header clearfix">
 								<div class="about-image image" style="background-image: url(images/avatar.jpg);">
-									<img src="images/avatar.jpg" alt="About Me">
+									<img src="content/images/avatar.jpg" alt="About Me">
 								</div>
 
 								<div class="widget-follow-content">
@@ -107,7 +107,7 @@
 							<div class="widget-list">
 								<div class="item clearfix">
 									<div class="image" style="background-image: url(images/widgets/posts/1.jpg); ">
-										<img src="images/widgets/posts/1.jpg" alt="The basis of friendship is sharing">
+										<img src="content/images/widgets/posts/1.jpg" alt="The basis of friendship is sharing">
 									</div>
 									<div class="widget-item-content">
 										<h3 class="title">
@@ -120,7 +120,7 @@
 								</div>
 								<div class="item clearfix">
 									<div class="image" style="background-image: url(images/widgets/posts/2.jpg); ">
-										<img src="images/widgets/posts/2.jpg" alt="Painting is just another way of keeping a diary">
+										<img src="content/images/widgets/posts/2.jpg" alt="Painting is just another way of keeping a diary">
 									</div>
 									<div class="widget-item-content">
 										<h3 class="title">
@@ -133,7 +133,7 @@
 								</div>
 								<div class="item clearfix">
 									<div class="image" style="background-image: url(images/widgets/posts/3.jpg); ">
-										<img src="images/widgets/posts/3.jpg" alt="Let’s Take A Chance And Hope For The Best">
+										<img src="content/images/widgets/posts/3.jpg" alt="Let’s Take A Chance And Hope For The Best">
 									</div>
 									<div class="widget-item-content">
 										<h3 class="title">
@@ -146,7 +146,7 @@
 								</div>
 								<div class="item clearfix">
 									<div class="image" style="background-image: url(images/widgets/posts/4.jpg); ">
-										<img src="images/widgets/posts/1.jpg" alt="The sooner you try the sooner you can succeed">
+										<img src="content/images/widgets/posts/1.jpg" alt="The sooner you try the sooner you can succeed">
 									</div>
 									<div class="widget-item-content">
 										<h3 class="title">
@@ -167,7 +167,7 @@
 							<div class="widget-content">
 								<div class="item">
 									<div class="image" style="background-image: url(images/widgets/category/1.jpg); ">
-										<img src="images/widgets/category/1.jpg" alt="Food">
+										<img src="content/images/widgets/category/1.jpg" alt="Food">
 									</div>
 									<div class="item-cat">
 										<a href="#">Food</a>
@@ -175,7 +175,7 @@
 								</div>
 								<div class="item">
 									<div class="image" style="background-image: url(images/widgets/category/2.jpg); ">
-										<img src="images/widgets/category/2.jpg" alt="Travel">
+										<img src="content/images/widgets/category/2.jpg" alt="Travel">
 									</div>
 									<div class="item-cat">
 										<a href="#">Travel</a>
@@ -183,7 +183,7 @@
 								</div>
 								<div class="item">
 									<div class="image" style="background-image: url(images/widgets/category/3.jpg); ">
-										<img src="images/widgets/category/3.jpg" alt="Life Style">
+										<img src="content/images/widgets/category/3.jpg" alt="Life Style">
 									</div>
 									<div class="item-cat">
 										<a href="#">Life Style</a>
@@ -196,7 +196,7 @@
 						<!-- Banner -->
 						<div id="kd_banner-2" class="widget kd-banner">
 							<div class="widget-banner-content" style="text-align: center;">
-								<img src="images/widgets/banner/advertise.jpg" alt="">
+								<img src="content/images/widgets/banner/advertise.jpg" alt="">
 							</div>
 						</div>
 						<!-- End Banner -->
@@ -251,47 +251,47 @@
 							<div class="kd-content">
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/1.jpg" alt="Instagram Feed"/>
+										<img src="content/images/widgets/instagram/1.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/2.jpg" alt="Instagram Feed"/>
+										<img src="content/images/widgets/instagram/2.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/3.jpg" alt="Instagram Feed"/>
+										<img src="content/images/widgets/instagram/3.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/4.jpg" alt="Instagram Feed"/>
+										<img src="content/images/widgets/instagram/4.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/5.jpg" alt="Instagram Feed"/>
+										<img src="content/images/widgets/instagram/5.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/6.jpg" alt="Instagram Feed"/>
+										<img src="content/images/widgets/instagram/6.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/7.jpg" alt="Instagram Feed"/>
+										<img src="content/images/widgets/instagram/7.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/8.jpg" alt="Instagram Feed"/>
+										<img src="content/images/widgets/instagram/8.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/9.jpg" alt="Instagram Feed"/>
+										<img src="content/images/widgets/instagram/9.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 
