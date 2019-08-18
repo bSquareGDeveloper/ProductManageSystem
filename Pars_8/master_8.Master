@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master_8.master.cs" Inherits="PMS.Pars_8.master_8" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Rio - Responsive Website Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="content/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="content/images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="content/css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="content/style.css">
+    <!-- Venobox CSS -->
+    <link rel="stylesheet" href="content/js/venobox/venobox.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="content/css/custom.css">
+
+    <script src="content/js/modernizer.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <header class="header">
+            <div class="container-fluid">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Rio</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="Home_8.aspx">Home</a></li>
+                            <li><a href="About_8.aspx">About</a></li>#
+                            <li class="dropdown hasmenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Works <span class="fa fa-angle-down"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Portfolio Masonry</a></li>
+                                    <li><a href="#">Portfolio with Desc</a></li>
+                                    <li><a href="#">Portfolio Grid</a></li>
+                                    <li><a href="#">Portfolio no Space</a></li>
+                                    <li><a href="#">Single Work Sidebar</a></li>
+                                    <li><a href="#">Single Work Gallery</a></li>
+                                    <li><a href="#">Single Work Basic</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown hasmenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Digital Shop <span class="fa fa-angle-down"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="shop.html">Shop Layout</a></li>
+                                    <li><a href="shop-single.html">Shop Single</a></li>
+                                    <li><a href="shop-checkout.html">Shop Checkout</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="Contact_8.aspx">Contact</a></li>
+                            <li class="social-link facebook firstlink"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-link twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="social-link dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </nav><!-- end navbar -->
+            </div><!-- end container -->
+        </header><!-- end header -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="content/js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="content/js/custom.js"></script> 
+
+    <!-- PORTFOLIO PLUGINS -->
+    <script src="content/js/venobox/venobox.min.js"></script> 
+    <script src="content/js/portfolio.js"></script>
+    <script src="content/js/hoverdir.js"></script>  
+</body>
+</html>

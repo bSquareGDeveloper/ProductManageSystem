@@ -1,5 +1,5 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -62,15 +65,83 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Bhadresh_0\Home_0.aspx" />
     <Content Include="Bhadresh_0\About_0.aspx" />
     <Content Include="Bhadresh_0\ContactUs_0.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Pars_8\About_8.aspx" />
+    <Content Include="Pars_8\Contact_8.aspx" />
+    <Content Include="Pars_8\content\css\animate.css" />
+    <Content Include="Pars_8\content\css\bootstrap.min.css" />
+    <Content Include="Pars_8\content\css\custom.css" />
+    <Content Include="Pars_8\content\css\font-awesome.min.css" />
+    <Content Include="Pars_8\content\fonts\Flaticon.svg" />
+    <Content Include="Pars_8\content\fonts\fontawesome-webfont5b62.html" />
+    <Content Include="Pars_8\content\fonts\fontawesome-webfont5b62.svg" />
+    <Content Include="Pars_8\content\fonts\glyphicons-halflings-regular.html" />
+    <Content Include="Pars_8\content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Pars_8\content\images\apple-touch-icon.png" />
+    <Content Include="Pars_8\content\images\favicon.ico" />
+    <Content Include="Pars_8\content\images\icons\payment_01.png" />
+    <Content Include="Pars_8\content\images\icons\payment_02.png" />
+    <Content Include="Pars_8\content\images\icons\payment_03.png" />
+    <Content Include="Pars_8\content\images\icons\payment_04.png" />
+    <Content Include="Pars_8\content\images\icons\payment_05.png" />
+    <Content Include="Pars_8\content\images\icons\payment_06.png" />
+    <Content Include="Pars_8\content\images\loader.gif" />
+    <Content Include="Pars_8\content\js\all.js" />
+    <Content Include="Pars_8\content\js\custom.js" />
+    <Content Include="Pars_8\content\js\hoverdir.js" />
+    <Content Include="Pars_8\content\js\modernizer.js" />
+    <Content Include="Pars_8\content\js\portfolio.js" />
+    <Content Include="Pars_8\content\js\venobox\close.gif" />
+    <Content Include="Pars_8\content\js\venobox\next.gif" />
+    <Content Include="Pars_8\content\js\venobox\preload-circle.png" />
+    <Content Include="Pars_8\content\js\venobox\prev.gif" />
+    <Content Include="Pars_8\content\js\venobox\venobox.css" />
+    <Content Include="Pars_8\content\js\venobox\venobox.min.js" />
+    <Content Include="Pars_8\content\uploads\about.jpg" />
+    <Content Include="Pars_8\content\uploads\banner.gif" />
+    <Content Include="Pars_8\content\uploads\blog_01.jpg" />
+    <Content Include="Pars_8\content\uploads\blog_02.jpg" />
+    <Content Include="Pars_8\content\uploads\blog_03.jpg" />
+    <Content Include="Pars_8\content\uploads\grid_01.jpg" />
+    <Content Include="Pars_8\content\uploads\grid_02.jpg" />
+    <Content Include="Pars_8\content\uploads\grid_03.jpg" />
+    <Content Include="Pars_8\content\uploads\grid_04.jpg" />
+    <Content Include="Pars_8\content\uploads\grid_05.jpg" />
+    <Content Include="Pars_8\content\uploads\grid_06.jpg" />
+    <Content Include="Pars_8\content\uploads\grid_07.jpg" />
+    <Content Include="Pars_8\content\uploads\grid_08.jpg" />
+    <Content Include="Pars_8\content\uploads\grid_09.jpg" />
+    <Content Include="Pars_8\content\uploads\grid_10.jpg" />
+    <Content Include="Pars_8\content\uploads\grid_11.jpg" />
+    <Content Include="Pars_8\content\uploads\grid_12.jpg" />
+    <Content Include="Pars_8\content\uploads\portfolio_01.jpg" />
+    <Content Include="Pars_8\content\uploads\portfolio_02.jpg" />
+    <Content Include="Pars_8\content\uploads\portfolio_03.jpg" />
+    <Content Include="Pars_8\content\uploads\portfolio_04.jpg" />
+    <Content Include="Pars_8\content\uploads\portfolio_05.jpg" />
+    <Content Include="Pars_8\content\uploads\portfolio_06.jpg" />
+    <Content Include="Pars_8\content\uploads\portfolio_07.jpg" />
+    <Content Include="Pars_8\content\uploads\portfolio_08.jpg" />
+    <Content Include="Pars_8\content\uploads\portfolio_09.jpg" />
+    <Content Include="Pars_8\content\uploads\portfolio_10.jpg" />
+    <Content Include="Pars_8\content\uploads\portfolio_11.jpg" />
+    <Content Include="Pars_8\content\uploads\portfolio_12.jpg" />
+    <Content Include="Pars_8\content\uploads\shop_01.jpg" />
+    <Content Include="Pars_8\content\uploads\shop_02.jpg" />
+    <Content Include="Pars_8\content\uploads\shop_03.jpg" />
+    <Content Include="Pars_8\content\uploads\shop_04.jpg" />
+    <Content Include="Pars_8\content\uploads\shop_05.jpg" />
+    <Content Include="Pars_8\content\uploads\shop_06.jpg" />
+    <Content Include="Pars_8\content\uploads\team_01.jpg" />
+    <Content Include="Pars_8\content\uploads\team_01.png" />
+    <Content Include="Pars_8\content\uploads\team_02.jpg" />
+    <Content Include="Pars_8\content\uploads\team_02.png" />
+    <Content Include="Pars_8\content\uploads\team_03.jpg" />
+    <Content Include="Pars_8\content\uploads\team_03.png" />
+    <Content Include="Pars_8\Home_8.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -105,11 +176,52 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Pars_8\About_8.aspx.cs">
+      <DependentUpon>About_8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pars_8\About_8.aspx.designer.cs">
+      <DependentUpon>About_8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pars_8\Contact_8.aspx.cs">
+      <DependentUpon>Contact_8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pars_8\Contact_8.aspx.designer.cs">
+      <DependentUpon>Contact_8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pars_8\Home_8.aspx.cs">
+      <DependentUpon>Home_8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pars_8\Home_8.aspx.designer.cs">
+      <DependentUpon>Home_8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pars_8\master_8.Master.cs">
+      <DependentUpon>master_8.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pars_8\master_8.Master.designer.cs">
+      <DependentUpon>master_8.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bhadresh_0\MasterPage0.Master" />
     <None Include="packages.config" />
+    <Content Include="Pars_8\content\fonts\Flaticon.eot" />
+    <Content Include="Pars_8\content\fonts\Flaticon.ttf" />
+    <Content Include="Pars_8\content\fonts\Flaticon.woff" />
+    <Content Include="Pars_8\content\fonts\Flaticond41d.eot" />
+    <Content Include="Pars_8\content\fonts\fontawesome-webfont5b62.eot" />
+    <Content Include="Pars_8\content\fonts\fontawesome-webfont5b62.ttf" />
+    <Content Include="Pars_8\content\fonts\fontawesome-webfont5b62.woff" />
+    <Content Include="Pars_8\content\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="Pars_8\content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Pars_8\content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Pars_8\content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Pars_8\content\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="Pars_8\master_8.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -151,7 +263,7 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
