@@ -51,7 +51,7 @@
 						<div class="widget kd-about">
 							<h2 class="widget-title">About Me</h2>
 							<div class="widget-header clearfix">
-								<div class="about-image image" style="background-image: url(images/avatar.jpg);">
+								<div class="about-image image" style="background-image: url(content/images/avatar.jpg);">
 									<img src="content/images/avatar.jpg" alt="About Me">
 								</div>
 
@@ -106,7 +106,7 @@
 							<h2 class="widget-title">Most Popular</h2>
 							<div class="widget-list">
 								<div class="item clearfix">
-									<div class="image" style="background-image: url(images/widgets/posts/1.jpg); ">
+									<div class="image" style="background-image: url(content/images/widgets/posts/1.jpg); ">
 										<img src="content/images/widgets/posts/1.jpg" alt="The basis of friendship is sharing">
 									</div>
 									<div class="widget-item-content">
@@ -119,7 +119,7 @@
 									</div>
 								</div>
 								<div class="item clearfix">
-									<div class="image" style="background-image: url(images/widgets/posts/2.jpg); ">
+									<div class="image" style="background-image: url(content/images/widgets/posts/2.jpg); ">
 										<img src="content/images/widgets/posts/2.jpg" alt="Painting is just another way of keeping a diary">
 									</div>
 									<div class="widget-item-content">
@@ -132,7 +132,7 @@
 									</div>
 								</div>
 								<div class="item clearfix">
-									<div class="image" style="background-image: url(images/widgets/posts/3.jpg); ">
+									<div class="image" style="background-image: url(content/images/widgets/posts/3.jpg); ">
 										<img src="content/images/widgets/posts/3.jpg" alt="Let’s Take A Chance And Hope For The Best">
 									</div>
 									<div class="widget-item-content">
@@ -145,7 +145,7 @@
 									</div>
 								</div>
 								<div class="item clearfix">
-									<div class="image" style="background-image: url(images/widgets/posts/4.jpg); ">
+									<div class="image" style="background-image: url(content/images/widgets/posts/4.jpg); ">
 										<img src="content/images/widgets/posts/1.jpg" alt="The sooner you try the sooner you can succeed">
 									</div>
 									<div class="widget-item-content">
@@ -166,7 +166,7 @@
 							<h2 class="widget-title"><span>Categories</span></h2>
 							<div class="widget-content">
 								<div class="item">
-									<div class="image" style="background-image: url(images/widgets/category/1.jpg); ">
+									<div class="image" style="background-image: url(content/images/widgets/category/1.jpg); ">
 										<img src="content/images/widgets/category/1.jpg" alt="Food">
 									</div>
 									<div class="item-cat">
@@ -174,7 +174,7 @@
 									</div>
 								</div>
 								<div class="item">
-									<div class="image" style="background-image: url(images/widgets/category/2.jpg); ">
+									<div class="image" style="background-image: url(content/images/widgets/category/2.jpg); ">
 										<img src="content/images/widgets/category/2.jpg" alt="Travel">
 									</div>
 									<div class="item-cat">
@@ -182,7 +182,7 @@
 									</div>
 								</div>
 								<div class="item">
-									<div class="image" style="background-image: url(images/widgets/category/3.jpg); ">
+									<div class="image" style="background-image: url(content/images/widgets/category/3.jpg); ">
 										<img src="content/images/widgets/category/3.jpg" alt="Life Style">
 									</div>
 									<div class="item-cat">
@@ -237,7 +237,7 @@
 						<div class="widget kd-featured-post">
 							<h2 class="widget-title">Featured Post</h2>
 							<div class="widget-content">
-								<div class="image" style="background-image: url(images/widgets/featured-posts/1.jpg)"></div>
+								<div class="image" style="background-image: url(content/images/widgets/featured-posts/1.jpg)"></div>
 								<h3 class="title">
 									<a href="#">The sooner you try the sooner you can succeed</a>
 								</h3>

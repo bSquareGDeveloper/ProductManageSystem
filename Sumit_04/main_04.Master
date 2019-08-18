@@ -30,7 +30,7 @@
     <form id="form1" runat="server">
         <header id="header" class="header header-v3">
 		<!-- Logo -->
-		<div class="logo" style="background-image: url(images/logo-background.jpg)">
+		<div class="logo" style="background-image: url(content/images/logo-background.jpg)">
 			<a href="index-2.html">
 				<img src="content/images/logo-4.png" alt="Simple Life">
 			</a>
@@ -52,7 +52,7 @@
 					<nav class="navigation">
 						<ul class="menu-list">
 							<li class="menu-item menu-item-has-children">
-								<a href="index-2.html">Home</a>
+								<a href="home_04.aspx">Home</a>
 							</li>
 							<li class="menu-item menu-item-has-children">
 								<a href="#">Layouts</a>
@@ -101,10 +101,10 @@
 								<a href="single.html">Single</a>
 							</li>
 							<li class="menu-item">
-								<a href="about.html">About</a>
+								<a href="about_04.aspx">About</a>
 							</li>
 							<li class="menu-item">
-								<a href="contact.html">Contact</a>
+								<a href="contact_04.aspx">Contact</a>
 							</li>
 						</ul>
 					</nav>
@@ -162,7 +162,7 @@
   
     <!-- Footer -->
 	<footer id="footer" class="footer v3">
-		<div class="footer-widgets"  style="background: url(images/footer/background.jpg)">
+		<div class="footer-widgets"  style="background: url(content/images/footer/background.jpg)">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
