@@ -1,5 +1,5 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -62,14 +65,48 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Bhadresh_0\Home_0.aspx" />
     <Content Include="Bhadresh_0\About_0.aspx" />
     <Content Include="Bhadresh_0\ContactUs_0.aspx" />
+    <Content Include="Dhruv_7\About_7.aspx" />
+    <Content Include="Dhruv_7\ContactUs_7.aspx" />
+    <Content Include="Dhruv_7\Content\css\animate.css" />
+    <Content Include="Dhruv_7\Content\css\bootstrap.css" />
+    <Content Include="Dhruv_7\Content\css\flexslider.css" />
+    <Content Include="Dhruv_7\Content\css\icomoon.css" />
+    <Content Include="Dhruv_7\Content\css\owl.carousel.min.css" />
+    <Content Include="Dhruv_7\Content\css\owl.theme.default.min.css" />
+    <Content Include="Dhruv_7\Content\css\style.css" />
+    <Content Include="Dhruv_7\Content\css\themify-icons.css" />
+    <Content Include="Dhruv_7\Content\fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="Dhruv_7\Content\fonts\icomoon\icomoon.svg" />
+    <Content Include="Dhruv_7\Content\fonts\themify-icons\themify.svg" />
+    <Content Include="Dhruv_7\Content\images\img_1.jpg" />
+    <Content Include="Dhruv_7\Content\images\img_2.jpg" />
+    <Content Include="Dhruv_7\Content\images\img_3.jpg" />
+    <Content Include="Dhruv_7\Content\images\img_4.jpg" />
+    <Content Include="Dhruv_7\Content\images\loader.gif" />
+    <Content Include="Dhruv_7\Content\images\loc.png" />
+    <Content Include="Dhruv_7\Content\images\person_1.jpg" />
+    <Content Include="Dhruv_7\Content\images\person_2.jpg" />
+    <Content Include="Dhruv_7\Content\images\person_3.jpg" />
+    <Content Include="Dhruv_7\Content\images\slider_1.jpg" />
+    <Content Include="Dhruv_7\Content\images\slider_2.jpg" />
+    <Content Include="Dhruv_7\Content\images\slider_3.jpg" />
+    <Content Include="Dhruv_7\Content\images\staff_1.jpg" />
+    <Content Include="Dhruv_7\Content\images\staff_2.jpg" />
+    <Content Include="Dhruv_7\Content\images\staff_3.jpg" />
+    <Content Include="Dhruv_7\Content\js\bootstrap.min.js" />
+    <Content Include="Dhruv_7\Content\js\google_map.js" />
+    <Content Include="Dhruv_7\Content\js\jquery.easing.1.3.js" />
+    <Content Include="Dhruv_7\Content\js\jquery.min.js" />
+    <Content Include="Dhruv_7\Content\js\jquery.waypoints.min.js" />
+    <Content Include="Dhruv_7\Content\js\main.js" />
+    <Content Include="Dhruv_7\Content\js\modernizr-2.6.2.min.js" />
+    <Content Include="Dhruv_7\Content\js\owl.carousel.min.js" />
+    <Content Include="Dhruv_7\Content\js\respond.min.js" />
+    <Content Include="Dhruv_7\Content\README.txt" />
+    <Content Include="Dhruv_7\Home_7.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -102,6 +139,34 @@
     <Compile Include="Bhadresh_0\ContactUs_0.aspx.designer.cs">
       <DependentUpon>ContactUs_0.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Dhruv_7\About_7.aspx.cs">
+      <DependentUpon>About_7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dhruv_7\About_7.aspx.designer.cs">
+      <DependentUpon>About_7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dhruv_7\ContactUs_7.aspx.cs">
+      <DependentUpon>ContactUs_7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dhruv_7\ContactUs_7.aspx.designer.cs">
+      <DependentUpon>ContactUs_7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dhruv_7\Home_7.aspx.cs">
+      <DependentUpon>Home_7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dhruv_7\Home_7.aspx.designer.cs">
+      <DependentUpon>Home_7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dhruv_7\Main_7.Master.cs">
+      <DependentUpon>Main_7.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dhruv_7\Main_7.Master.designer.cs">
+      <DependentUpon>Main_7.Master</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -109,6 +174,92 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bhadresh_0\MasterPage0.Master" />
+    <Content Include="Dhruv_7\Main_7.Master" />
+    <Content Include="Dhruv_7\Content\fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <Content Include="Dhruv_7\Content\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <Content Include="Dhruv_7\Content\fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <Content Include="Dhruv_7\Content\fonts\bootstrap\glyphicons-halflings-regular.woff2" />
+    <Content Include="Dhruv_7\Content\fonts\icomoon\icomoon.eot" />
+    <Content Include="Dhruv_7\Content\fonts\icomoon\icomoon.ttf" />
+    <Content Include="Dhruv_7\Content\fonts\icomoon\icomoon.woff" />
+    <Content Include="Dhruv_7\Content\fonts\themify-icons\themify.eot" />
+    <Content Include="Dhruv_7\Content\fonts\themify-icons\themify.ttf" />
+    <Content Include="Dhruv_7\Content\fonts\themify-icons\themify.woff" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_alerts.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_buttons.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_center-block.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_forms.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_gradients.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_grid.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_hide-text.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_image.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_labels.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_list-group.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_nav-vertical-align.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_opacity.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_pagination.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_panels.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_progress-bar.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_reset-filter.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_resize.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_responsive-visibility.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_size.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_tab-focus.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_table-row.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_text-overflow.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\mixins\_vendor-prefixes.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_alerts.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_badges.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_breadcrumbs.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_button-groups.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_buttons.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_carousel.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_close.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_code.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_component-animations.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_dropdowns.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_forms.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_glyphicons.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_grid.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_input-groups.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_jumbotron.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_labels.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_list-group.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_media.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_mixins.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_modals.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_navbar.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_navs.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_normalize.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_pager.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_pagination.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_panels.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_popovers.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_print.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_progress-bars.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_responsive-embed.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_responsive-utilities.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_scaffolding.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_tables.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_theme.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_thumbnails.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_tooltip.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_type.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_utilities.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_variables.scss" />
+    <Content Include="Dhruv_7\Content\sass\bootstrap\_wells.scss" />
+    <Content Include="Dhruv_7\Content\sass\style.scss" />
+    <Content Include="Dhruv_7\Content\sass\_bootstrap-compass.scss" />
+    <Content Include="Dhruv_7\Content\sass\_bootstrap-mincer.scss" />
+    <Content Include="Dhruv_7\Content\sass\_bootstrap-sprockets.scss" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -151,7 +302,7 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
