@@ -1,14 +1,15 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Bhadresh_0/MasterPage0.Master" AutoEventWireup="true" CodeBehind="Home_0.aspx.cs" Inherits="PMS.Bhadresh_0.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/kishore_01/kishore_01.master" AutoEventWireup="true" CodeBehind="home_01.aspx.cs" Inherits="PMS.kishore_01.home_01" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <!-- Featured Slider -->
+
+ <!-- Featured Slider -->
 	<div id="featured-slider-v2" class="slider-1-column">
 		<div class="container">
 			<div class="owl-carousel owl-theme">
 
 				<div class="item">
-					<div class="image" style="background-image: url(images/posts/3.jpg)"></div>
+					<div class="image" style="background-image: url(content/images/posts/3.jpg)"></div>
 					<div class="content">
 						<h2 class="title">
 							<a href="single.html">In daily life, people have many way to get pleasure</a>
@@ -22,7 +23,7 @@
 				</div>
 
 				<div class="item">
-					<div class="image" style="background-image: url(images/posts/6.jpg)"></div>
+					<div class="image" style="background-image: url(content/images/posts/6.jpg)"></div>
 					<div class="content">
 						<h2 class="title">
 							<a href="single.html">A country with many things not yet discoverd</a>
@@ -36,7 +37,7 @@
 				</div>
 
 				<div class="item">
-					<div class="image" style="background-image: url(images/posts/7.jpg)"></div>
+					<div class="image" style="background-image: url(content/images/posts/7.jpg)"></div>
 					<div class="content">
 						<h2 class="title">
 							<a href="single.html">Our defeat was mainly due to our ill-discipline</a>
@@ -50,7 +51,7 @@
 				</div>
 
 				<div class="item">
-					<div class="image" style="background-image: url(images/posts/8.jpg)"></div>
+					<div class="image" style="background-image: url(content/images/posts/8.jpg)"></div>
 					<div class="content">
 						<h2 class="title">
 							<a href="single.html">Their happiness comes before anything else</a>
@@ -69,7 +70,7 @@
 	<!-- End Featured Slider -->
 
 	<!-- Profile -->
-	<div id="profile" class="profile" style="background-image:url(images/footer/background.jpg)"; >
+	<div id="profile" class="profile" style="background-image:url(content/images/footer/background.jpg)"; >
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -102,7 +103,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="image-profile">
-						<img src="images/avatar.jpg" alt="Dave Ellender">
+						<img src="content/images/avatar.jpg" alt="Dave Ellender">
 					</div>
 				</div>
 			</div>
@@ -125,8 +126,8 @@
 										<!-- Thumbnail -->
 										<div class="post-media">
 											<a href="single.html">
-												<div class="image" style="background-image: url(images/posts/9.jpg);">
-													<img src="images/posts/9.jpg" alt="The basis of friendship is sharing">
+												<div class="image" style="background-image: url(content/images/posts/9.jpg);">
+													<img src="content/images/posts/9.jpg" alt="The basis of friendship is sharing">
 												</div>
 											</a>
 										</div>
@@ -168,8 +169,8 @@
 										<!-- Thumbnail -->
 										<div class="post-media">
 											<a href="single.html">
-												<div class="image" style="background-image: url(images/posts/10.jpg);">
-													<img src="images/posts/10.jpg" alt="The Sooner You Try The Sooner You Can Succeed">
+												<div class="image" style="background-image: url(content/images/posts/10.jpg);">
+													<img src="content/images/posts/10.jpg" alt="The Sooner You Try The Sooner You Can Succeed">
 												</div>
 											</a>
 										</div>
@@ -211,8 +212,8 @@
 										<!-- Thumbnail -->
 										<div class="post-media">
 											<a href="single.html">
-												<div class="image" style="background-image: url(images/posts/11.jpg);">
-													<img src="images/posts/11.jpg" alt="Let’s Take A Chance And Hope For The Best">
+												<div class="image" style="background-image: url(content/images/posts/11.jpg);">
+													<img src="content/images/posts/11.jpg" alt="Let’s Take A Chance And Hope For The Best">
 												</div>
 											</a>
 										</div>
@@ -254,8 +255,8 @@
 										<!-- Thumbnail -->
 										<div class="post-media">
 											<a href="single.html">
-												<div class="image" style="background-image: url(images/posts/12.jpg);">
-													<img src="images/posts/12.jpg" alt="Change Your Life If You Feel It’s Necessary">
+												<div class="image" style="background-image: url(content/images/posts/12.jpg);">
+													<img src="content/images/posts/12.jpg" alt="Change Your Life If You Feel It’s Necessary">
 												</div>
 											</a>
 										</div>
@@ -297,8 +298,8 @@
 										<!-- Thumbnail -->
 										<div class="post-media">
 											<a href="single.html">
-												<div class="image" style="background-image: url(images/posts/13.jpg);">
-													<img src="images/posts/13.jpg" alt="State Of The Art Engineer At Your Fingertips">
+												<div class="image" style="background-image: url(content/images/posts/13.jpg);">
+													<img src="content/images/posts/13.jpg" alt="State Of The Art Engineer At Your Fingertips">
 												</div>
 											</a>
 										</div>
@@ -340,8 +341,8 @@
 										<!-- Thumbnail -->
 										<div class="post-media">
 											<a href="single.html">
-												<div class="image" style="background-image: url(images/posts/14.jpg);">
-													<img src="images/posts/14.jpg" alt="Faithfulness Helps Extend The Happiness Of A Family">
+												<div class="image" style="background-image: url(content/images/posts/14.jpg);">
+													<img src="content/images/posts/14.jpg" alt="Faithfulness Helps Extend The Happiness Of A Family">
 												</div>
 											</a>
 										</div>
@@ -383,8 +384,8 @@
 										<!-- Thumbnail -->
 										<div class="post-media">
 											<a href="single.html">
-												<div class="image" style="background-image: url(images/posts/15.jpg);">
-													<img src="images/posts/15.jpg" alt="A High Risk Investment May Bring You Big Profit">
+												<div class="image" style="background-image: url(content/images/posts/15.jpg);">
+													<img src="content/images/posts/15.jpg" alt="A High Risk Investment May Bring You Big Profit">
 												</div>
 											</a>
 										</div>
@@ -426,8 +427,8 @@
 										<!-- Thumbnail -->
 										<div class="post-media">
 											<a href="single.html">
-												<div class="image" style="background-image: url(images/posts/16.jpg);">
-													<img src="images/posts/16.jpg" alt="All Work And No Play Make Jack A Dull Boy">
+												<div class="image" style="background-image: url(content/images/posts/16.jpg);">
+													<img src="content/images/posts/16.jpg" alt="All Work And No Play Make Jack A Dull Boy">
 												</div>
 											</a>
 										</div>
@@ -469,8 +470,8 @@
 										<!-- Thumbnail -->
 										<div class="post-media">
 											<a href="single.html">
-												<div class="image" style="background-image: url(images/posts/17.jpg);">
-													<img src="images/posts/17.jpg" alt="Love Is Foundation Of A Happy Fammily">
+												<div class="image" style="background-image: url(content/images/posts/17.jpg);">
+													<img src="content/images/posts/17.jpg" alt="Love Is Foundation Of A Happy Fammily">
 												</div>
 											</a>
 										</div>
@@ -512,8 +513,8 @@
 										<!-- Thumbnail -->
 										<div class="post-media">
 											<a href="single.html">
-												<div class="image" style="background-image: url(images/posts/18.jpg);">
-													<img src="images/posts/18.jpg" alt="Enjoy The Fruits Of Your Labour">
+												<div class="image" style="background-image: url(content/images/posts/18.jpg);">
+													<img src="content/images/posts/18.jpg" alt="Enjoy The Fruits Of Your Labour">
 												</div>
 											</a>
 										</div>
@@ -567,8 +568,8 @@
 						<div class="widget kd-about">
 							<h2 class="widget-title">About Me</h2>
 							<div class="widget-header clearfix">
-								<div class="about-image image" style="background-image: url(images/avatar.jpg);">
-									<img src="images/avatar.jpg" alt="About Me">
+								<div class="about-image image" style="background-image: url(content/images/avatar.jpg);">
+									<img src="content/images/avatar.jpg" alt="About Me">
 								</div>
 
 								<div class="widget-follow-content">
@@ -622,8 +623,8 @@
 							<h2 class="widget-title">Most Popular</h2>
 							<div class="widget-list">
 								<div class="item clearfix">
-									<div class="image" style="background-image: url(images/widgets/posts/1.jpg); ">
-										<img src="images/widgets/posts/1.jpg" alt="The basis of friendship is sharing">
+									<div class="image" style="background-image: url(content/content/images/widgets/posts/1.jpg); ">
+										<img src="content/content/images/widgets/posts/1.jpg" alt="The basis of friendship is sharing">
 									</div>
 									<div class="widget-item-content">
 										<h3 class="title">
@@ -635,8 +636,8 @@
 									</div>
 								</div>
 							<div class="item clearfix">
-								<div class="image" style="background-image: url(images/widgets/posts/2.jpg); ">
-									<img src="images/widgets/posts/2.jpg" alt="Painting is just another way of keeping a diary">
+								<div class="image" style="background-image: url(content/content/images/widgets/posts/2.jpg); ">
+									<img src="content/content/images/widgets/posts/2.jpg" alt="Painting is just another way of keeping a diary">
 								</div>
 								<div class="widget-item-content">
 									<h3 class="title">
@@ -648,8 +649,8 @@
 								</div>
 							</div>
 							<div class="item clearfix">
-								<div class="image" style="background-image: url(images/widgets/posts/3.jpg); ">
-									<img src="images/widgets/posts/3.jpg" alt="Let’s Take A Chance And Hope For The Best">
+								<div class="image" style="background-image: url(content/content/images/widgets/posts/3.jpg); ">
+									<img src="content/content/images/widgets/posts/3.jpg" alt="Let’s Take A Chance And Hope For The Best">
 								</div>
 								<div class="widget-item-content">
 									<h3 class="title">
@@ -661,8 +662,8 @@
 								</div>
 							</div>
 							<div class="item clearfix">
-								<div class="image" style="background-image: url(images/widgets/posts/4.jpg); ">
-									<img src="images/widgets/posts/1.jpg" alt="The sooner you try the sooner you can succeed">
+								<div class="image" style="background-image: url(content/content/images/widgets/posts/4.jpg); ">
+									<img src="content/content/images/widgets/posts/1.jpg" alt="The sooner you try the sooner you can succeed">
 								</div>
 								<div class="widget-item-content">
 									<h3 class="title">
@@ -682,24 +683,24 @@
 							<h2 class="widget-title"><span>Categories</span></h2>
 							<div class="widget-content">
 								<div class="item">
-									<div class="image" style="background-image: url(images/widgets/category/1.jpg); ">
-										<img src="images/widgets/category/1.jpg" alt="Food">
+									<div class="image" style="background-image: url(content/content/images/widgets/category/1.jpg); ">
+										<img src="content/content/images/widgets/category/1.jpg" alt="Food">
 									</div>
 									<div class="item-cat">
 										<a href="#">Food</a>
 									</div>
 								</div>
 								<div class="item">
-									<div class="image" style="background-image: url(images/widgets/category/2.jpg); ">
-										<img src="images/widgets/category/2.jpg" alt="Travel">
+									<div class="image" style="background-image: url(content/content/images/widgets/category/2.jpg); ">
+										<img src="content/content/images/widgets/category/2.jpg" alt="Travel">
 									</div>
 									<div class="item-cat">
 										<a href="#">Travel</a>
 									</div>
 								</div>
 								<div class="item">
-									<div class="image" style="background-image: url(images/widgets/category/3.jpg); ">
-										<img src="images/widgets/category/3.jpg" alt="Life Style">
+									<div class="image" style="background-image: url(content/content/images/widgets/category/3.jpg); ">
+										<img src="content/content/images/widgets/category/3.jpg" alt="Life Style">
 									</div>
 									<div class="item-cat">
 										<a href="#">Life Style</a>
@@ -712,7 +713,7 @@
 						<!-- Banner -->
 						<div id="kd_banner-2" class="widget kd-banner">
 							<div class="widget-banner-content" style="text-align: center;">
-								<img src="images/widgets/banner/advertise.jpg" alt="">
+								<img src="content/images/widgets/banner/advertise.jpg" alt="">
 							</div>
 						</div>
 						<!-- End Banner -->
@@ -753,7 +754,7 @@
 						<div class="widget kd-featured-post">
 							<h2 class="widget-title">Featured Post</h2>
 							<div class="widget-content">
-								<div class="image" style="background-image: url(images/widgets/featured-posts/1.jpg)"></div>
+								<div class="image" style="background-image: url(content/content/images/widgets/featured-posts/1.jpg)"></div>
 								<h3 class="title">
 									<a href="#">The sooner you try the sooner you can succeed</a>
 								</h3>
@@ -762,52 +763,52 @@
 						<!-- End Featured Post -->
 
 						<!-- Instagram -->
-						<div class="widget kd-instagram kd-images">
+						<div class="widget kd-instagram kd-content/images">
 							<h2 class="widget-title">Simple Life Instagram</h2>
 							<div class="kd-content">
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/1.jpg" alt="Instagram Feed"/>
+										<img src="content/content/images/widgets/instagram/1.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/2.jpg" alt="Instagram Feed"/>
+										<img src="content/content/images/widgets/instagram/2.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/3.jpg" alt="Instagram Feed"/>
+										<img src="content//widgets/instagram/3.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/4.jpg" alt="Instagram Feed"/>
+										<img src="content/content/images/widgets/instagram/4.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/5.jpg" alt="Instagram Feed"/>
+										<img src="content/content/images/widgets/instagram/5.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/6.jpg" alt="Instagram Feed"/>
+										<img src="content/content/images/widgets/instagram/6.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/7.jpg" alt="Instagram Feed"/>
+										<img src="content/content/images/widgets/instagram/7.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/8.jpg" alt="Instagram Feed"/>
+										<img src="content/content/images/widgets/instagram/8.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img src="images/widgets/instagram/9.jpg" alt="Instagram Feed"/>
+										<img src="content/content/images/widgets/instagram/9.jpg" alt="Instagram Feed"/>
 									</a>
 								</div>
 

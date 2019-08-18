@@ -1,5 +1,5 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -62,15 +65,87 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Bhadresh_0\Home_0.aspx" />
     <Content Include="Bhadresh_0\About_0.aspx" />
     <Content Include="Bhadresh_0\ContactUs_0.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="kishore_01\about_01.aspx" />
+    <Content Include="kishore_01\contact_01.aspx" />
+    <Content Include="kishore_01\content\css\fonts\fontawesome-webfont3e6e-2.html" />
+    <Content Include="kishore_01\content\css\fonts\fontawesome-webfont3e6e.html" />
+    <Content Include="kishore_01\content\css\fonts\fontawesome-webfont3e6e.svg" />
+    <Content Include="kishore_01\content\css\fonts\glyphicons-halflings-regular-2.html" />
+    <Content Include="kishore_01\content\css\fonts\glyphicons-halflings-regular.html" />
+    <Content Include="kishore_01\content\css\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="kishore_01\content\css\fonts\icomoonb19c.html" />
+    <Content Include="kishore_01\content\css\fonts\icomoonb19c.svg" />
+    <Content Include="kishore_01\content\css\fonts\Notera_PersonalUseOnly.html" />
+    <Content Include="kishore_01\content\css\fonts\Notera_PersonalUseOnly.svg" />
+    <Content Include="kishore_01\content\css\libs\animate.css" />
+    <Content Include="kishore_01\content\css\libs\bootstrap.min.css" />
+    <Content Include="kishore_01\content\css\libs\font-awesome.min.css" />
+    <Content Include="kishore_01\content\css\libs\icomoon.css" />
+    <Content Include="kishore_01\content\css\libs\magnific-popup.css" />
+    <Content Include="kishore_01\content\css\libs\owl.carousel.min.css" />
+    <Content Include="kishore_01\content\css\libs\owl.video.play.html" />
+    <Content Include="kishore_01\content\css\styles.css" />
+    <Content Include="kishore_01\content\images\avatar.jpg" />
+    <Content Include="kishore_01\content\images\avatar\1.jpg" />
+    <Content Include="kishore_01\content\images\avatar\2.jpg" />
+    <Content Include="kishore_01\content\images\avatar\3.jpg" />
+    <Content Include="kishore_01\content\images\footer\background.jpg" />
+    <Content Include="kishore_01\content\images\logo-4.png" />
+    <Content Include="kishore_01\content\images\logo-background.jpg" />
+    <Content Include="kishore_01\content\images\logo.png" />
+    <Content Include="kishore_01\content\images\posts\10.jpg" />
+    <Content Include="kishore_01\content\images\posts\11.jpg" />
+    <Content Include="kishore_01\content\images\posts\12.jpg" />
+    <Content Include="kishore_01\content\images\posts\13.jpg" />
+    <Content Include="kishore_01\content\images\posts\14.jpg" />
+    <Content Include="kishore_01\content\images\posts\15.jpg" />
+    <Content Include="kishore_01\content\images\posts\16.jpg" />
+    <Content Include="kishore_01\content\images\posts\17.jpg" />
+    <Content Include="kishore_01\content\images\posts\18.jpg" />
+    <Content Include="kishore_01\content\images\posts\19.jpg" />
+    <Content Include="kishore_01\content\images\posts\20.jpg" />
+    <Content Include="kishore_01\content\images\posts\22.jpg" />
+    <Content Include="kishore_01\content\images\posts\23.jpg" />
+    <Content Include="kishore_01\content\images\posts\26.jpg" />
+    <Content Include="kishore_01\content\images\posts\28.jpg" />
+    <Content Include="kishore_01\content\images\posts\3.jpg" />
+    <Content Include="kishore_01\content\images\posts\30.jpg" />
+    <Content Include="kishore_01\content\images\posts\31.jpg" />
+    <Content Include="kishore_01\content\images\posts\6.jpg" />
+    <Content Include="kishore_01\content\images\posts\7.jpg" />
+    <Content Include="kishore_01\content\images\posts\8.jpg" />
+    <Content Include="kishore_01\content\images\posts\9.jpg" />
+    <Content Include="kishore_01\content\images\widgets\banner\advertise.jpg" />
+    <Content Include="kishore_01\content\images\widgets\category\1.jpg" />
+    <Content Include="kishore_01\content\images\widgets\category\2.jpg" />
+    <Content Include="kishore_01\content\images\widgets\category\3.jpg" />
+    <Content Include="kishore_01\content\images\widgets\featured-posts\1.jpg" />
+    <Content Include="kishore_01\content\images\widgets\instagram\1.jpg" />
+    <Content Include="kishore_01\content\images\widgets\instagram\2.jpg" />
+    <Content Include="kishore_01\content\images\widgets\instagram\3.jpg" />
+    <Content Include="kishore_01\content\images\widgets\instagram\4.jpg" />
+    <Content Include="kishore_01\content\images\widgets\instagram\5.jpg" />
+    <Content Include="kishore_01\content\images\widgets\instagram\6.jpg" />
+    <Content Include="kishore_01\content\images\widgets\instagram\7.jpg" />
+    <Content Include="kishore_01\content\images\widgets\instagram\8.jpg" />
+    <Content Include="kishore_01\content\images\widgets\instagram\9.jpg" />
+    <Content Include="kishore_01\content\images\widgets\posts\1.jpg" />
+    <Content Include="kishore_01\content\images\widgets\posts\2.jpg" />
+    <Content Include="kishore_01\content\images\widgets\posts\3.jpg" />
+    <Content Include="kishore_01\content\images\widgets\posts\4.jpg" />
+    <Content Include="kishore_01\content\index.html" />
+    <Content Include="kishore_01\content\js\libs\jquery-1.12.4.min.js" />
+    <Content Include="kishore_01\content\js\libs\jquery-scrolltofixed-min.js" />
+    <Content Include="kishore_01\content\js\libs\jquery.justifiedGallery.min.js" />
+    <Content Include="kishore_01\content\js\libs\jquery.magnific-popup.js" />
+    <Content Include="kishore_01\content\js\libs\masonry.pkgd.js" />
+    <Content Include="kishore_01\content\js\libs\owl.carousel.js" />
+    <Content Include="kishore_01\content\js\scripts.js" />
+    <Content Include="kishore_01\home_01.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -105,10 +180,49 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="kishore_01\about_01.aspx.cs">
+      <DependentUpon>about_01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kishore_01\about_01.aspx.designer.cs">
+      <DependentUpon>about_01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kishore_01\contact_01.aspx.cs">
+      <DependentUpon>contact_01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kishore_01\contact_01.aspx.designer.cs">
+      <DependentUpon>contact_01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kishore_01\home_01.aspx.cs">
+      <DependentUpon>home_01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kishore_01\home_01.aspx.designer.cs">
+      <DependentUpon>home_01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kishore_01\kishore_01.master.cs">
+      <DependentUpon>kishore_01.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kishore_01\kishore_01.master.designer.cs">
+      <DependentUpon>kishore_01.master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bhadresh_0\MasterPage0.Master" />
+    <Content Include="kishore_01\kishore_01.master" />
+    <Content Include="kishore_01\content\css\fonts\fontawesome-webfont3e6e.eot" />
+    <Content Include="kishore_01\content\css\fonts\fontawesome-webfont3e6e.woff" />
+    <Content Include="kishore_01\content\css\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="kishore_01\content\css\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="kishore_01\content\css\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="kishore_01\content\css\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="kishore_01\content\css\fonts\icomoonb19c.eot" />
+    <Content Include="kishore_01\content\css\fonts\icomoonb19c.woff" />
+    <Content Include="kishore_01\content\css\fonts\Notera_PersonalUseOnly.eot" />
+    <Content Include="kishore_01\content\css\fonts\Notera_PersonalUseOnly.woff" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -151,7 +265,7 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
